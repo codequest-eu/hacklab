@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD95A8C3253F47EC00CFBA28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD95A8C2253F47EC00CFBA28 /* AppDelegate.swift */; };
+		CD95A8C5253F47EC00CFBA28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD95A8C4253F47EC00CFBA28 /* SceneDelegate.swift */; };
+		CD95A8C7253F47EC00CFBA28 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD95A8C6253F47EC00CFBA28 /* LoginViewController.swift */; };
+		CD95A8CC253F47ED00CFBA28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD95A8CB253F47ED00CFBA28 /* Assets.xcassets */; };
+		CD95A8CF253F47ED00CFBA28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD95A8CD253F47ED00CFBA28 /* LaunchScreen.storyboard */; };
+		CD95A8DC253F486800CFBA28 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD95A8DB253F486800CFBA28 /* LoginView.swift */; };
+		CD95A8DF253F487700CFBA28 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD95A8DE253F487700CFBA28 /* LoginViewModel.swift */; };
+		CD95A8E2253F48AE00CFBA28 /* UITextField+Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD95A8E1253F48AE00CFBA28 /* UITextField+Publisher.swift */; };
+		CD95A8E6253F48BC00CFBA28 /* UIButton+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD95A8E5253F48BC00CFBA28 /* UIButton+Validation.swift */; };
+		CD95A8EB253F48ED00CFBA28 /* EmptyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD95A8EA253F48ED00CFBA28 /* EmptyViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD95A8BF253F47EC00CFBA28 /* hacklab-combine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hacklab-combine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD95A8C2253F47EC00CFBA28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD95A8C4253F47EC00CFBA28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CD95A8C6253F47EC00CFBA28 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CD95A8CB253F47ED00CFBA28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD95A8CE253F47ED00CFBA28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD95A8D0253F47ED00CFBA28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD95A8DB253F486800CFBA28 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CD95A8DE253F487700CFBA28 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		CD95A8E1253F48AE00CFBA28 /* UITextField+Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Publisher.swift"; sourceTree = "<group>"; };
+		CD95A8E5253F48BC00CFBA28 /* UIButton+Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Validation.swift"; sourceTree = "<group>"; };
+		CD95A8EA253F48ED00CFBA28 /* EmptyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD95A8BC253F47EC00CFBA28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD95A8B6253F47EC00CFBA28 = {
+			isa = PBXGroup;
+			children = (
+				CD95A8C1253F47EC00CFBA28 /* hacklab-combine */,
+				CD95A8C0253F47EC00CFBA28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD95A8C0253F47EC00CFBA28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD95A8BF253F47EC00CFBA28 /* hacklab-combine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD95A8C1253F47EC00CFBA28 /* hacklab-combine */ = {
+			isa = PBXGroup;
+			children = (
+				CD95A8C2253F47EC00CFBA28 /* AppDelegate.swift */,
+				CD95A8C4253F47EC00CFBA28 /* SceneDelegate.swift */,
+				CD95A8D7253F480800CFBA28 /* Combine */,
+				CD95A8E8253F48C600CFBA28 /* Features */,
+				CD95A8CB253F47ED00CFBA28 /* Assets.xcassets */,
+				CD95A8CD253F47ED00CFBA28 /* LaunchScreen.storyboard */,
+				CD95A8D0253F47ED00CFBA28 /* Info.plist */,
+			);
+			path = "hacklab-combine";
+			sourceTree = "<group>";
+		};
+		CD95A8D7253F480800CFBA28 /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+				CD95A8E1253F48AE00CFBA28 /* UITextField+Publisher.swift */,
+				CD95A8E5253F48BC00CFBA28 /* UIButton+Validation.swift */,
+			);
+			path = Combine;
+			sourceTree = "<group>";
+		};
+		CD95A8D8253F482600CFBA28 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CD95A8C6253F47EC00CFBA28 /* LoginViewController.swift */,
+				CD95A8DB253F486800CFBA28 /* LoginView.swift */,
+				CD95A8DE253F487700CFBA28 /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CD95A8E8253F48C600CFBA28 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				CD95A8D8253F482600CFBA28 /* Login */,
+				CD95A8E9253F48D500CFBA28 /* Empty */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		CD95A8E9253F48D500CFBA28 /* Empty */ = {
+			isa = PBXGroup;
+			children = (
+				CD95A8EA253F48ED00CFBA28 /* EmptyViewController.swift */,
+			);
+			path = Empty;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD95A8BE253F47EC00CFBA28 /* hacklab-combine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD95A8D3253F47ED00CFBA28 /* Build configuration list for PBXNativeTarget "hacklab-combine" */;
+			buildPhases = (
+				CD95A8BB253F47EC00CFBA28 /* Sources */,
+				CD95A8BC253F47EC00CFBA28 /* Frameworks */,
+				CD95A8BD253F47EC00CFBA28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hacklab-combine";
+			productName = "hacklab-combine";
+			productReference = CD95A8BF253F47EC00CFBA28 /* hacklab-combine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD95A8B7253F47EC00CFBA28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					CD95A8BE253F47EC00CFBA28 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = CD95A8BA253F47EC00CFBA28 /* Build configuration list for PBXProject "hacklab-combine" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD95A8B6253F47EC00CFBA28;
+			productRefGroup = CD95A8C0253F47EC00CFBA28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD95A8BE253F47EC00CFBA28 /* hacklab-combine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD95A8BD253F47EC00CFBA28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD95A8CF253F47ED00CFBA28 /* LaunchScreen.storyboard in Resources */,
+				CD95A8CC253F47ED00CFBA28 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD95A8BB253F47EC00CFBA28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD95A8E2253F48AE00CFBA28 /* UITextField+Publisher.swift in Sources */,
+				CD95A8C7253F47EC00CFBA28 /* LoginViewController.swift in Sources */,
+				CD95A8EB253F48ED00CFBA28 /* EmptyViewController.swift in Sources */,
+				CD95A8C3253F47EC00CFBA28 /* AppDelegate.swift in Sources */,
+				CD95A8E6253F48BC00CFBA28 /* UIButton+Validation.swift in Sources */,
+				CD95A8DC253F486800CFBA28 /* LoginView.swift in Sources */,
+				CD95A8DF253F487700CFBA28 /* LoginViewModel.swift in Sources */,
+				CD95A8C5253F47EC00CFBA28 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD95A8CD253F47ED00CFBA28 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD95A8CE253F47ED00CFBA28 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD95A8D1253F47ED00CFBA28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD95A8D2253F47ED00CFBA28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD95A8D4253F47ED00CFBA28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "hacklab-combine/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codequest.hacklab-combine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD95A8D5253F47ED00CFBA28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "hacklab-combine/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codequest.hacklab-combine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD95A8BA253F47EC00CFBA28 /* Build configuration list for PBXProject "hacklab-combine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD95A8D1253F47ED00CFBA28 /* Debug */,
+				CD95A8D2253F47ED00CFBA28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD95A8D3253F47ED00CFBA28 /* Build configuration list for PBXNativeTarget "hacklab-combine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD95A8D4253F47ED00CFBA28 /* Debug */,
+				CD95A8D5253F47ED00CFBA28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD95A8B7253F47EC00CFBA28 /* Project object */;
+}
